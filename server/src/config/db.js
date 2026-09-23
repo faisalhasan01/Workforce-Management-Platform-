@@ -27,11 +27,15 @@ export const connectDB = async () => {
       }
       const { MongoMemoryServer } = await import('mongodb-memory-server');
       if (!mongodInstance) {
-        mongodInstance = await MongoMemoryServer.create();
+        mongodInstance = await MongoMemoryServer.create({
+          binary: {
+            version: '7.0.14',
+          },
+        });
       }
       const memUri = mongodInstance.getUri();
       await mongoose.connect(memUri);
-      console.log(`[Database] Successfully connected to In-Memory MongoDB at: ${memUri}`);
+      console.log(`[Database] Successfully connected to In-Memory MongoDB (7.0.14) at: ${memUri}`);
     } catch (memErr) {
       console.error('[Database] Failed to initialize in-memory fallback:', memErr.message);
       throw memErr;
