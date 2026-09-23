@@ -1,0 +1,9 @@
+Enterprise System Architecture Specification
+Version: 2.4 Enterprise Release
+Security Level: Internal Confidential
+
+Architecture:
+- Frontend: React 18, Tailwind CSS, Vite, Real-Time WebSockets
+- Backend: Node.js, Express, MongoDB (Mongoose), Socket.IO
+- Multi-Tenancy: Scoped organization isolation via tenant middleware
+- Scalability: Microservices-ready REST API with JWT bearer authorization
