@@ -94,7 +94,7 @@ export const generateSubtasks = async (req, res) => {
         acceptanceCriteria,
         suggestedStoryPoints: suggestedPoints,
         riskScore: suggestedPoints > 5 ? 'High Complexity' : 'Moderate',
-        aiModel: 'NexusAI v2.4 Enterprise Core',
+        aiModel: 'Workforce Automation Engine',
       },
     });
   } catch (error) {

@@ -32,7 +32,7 @@ export const App = () => {
       <div className="min-h-screen bg-slate-950 flex items-center justify-center text-slate-400">
         <div className="flex items-center space-x-3">
           <span className="w-3 h-3 rounded-full bg-brand-500 animate-ping" />
-          <span className="text-sm font-semibold tracking-wide">Initializing NexusWork...</span>
+          <span className="text-sm font-semibold tracking-wide">Loading...</span>
         </div>
       </div>
     );

@@ -51,7 +51,7 @@ app.get('/api/health', (req, res) => {
   res.json({
     status: 'online',
     timestamp: new Date().toISOString(),
-    service: 'Enterprise SaaS API Gateway',
+    service: 'Workforce Management API Gateway',
     version: '1.0.0',
   });
 });
@@ -87,7 +87,7 @@ const startServer = async () => {
 
     server.listen(PORT, () => {
       console.log(`\n==================================================`);
-      console.log(`🚀 NexusWork Enterprise API Server is RUNNING`);
+      console.log(`🚀 Workforce Management Platform Server is RUNNING`);
       console.log(`🌐 URL: http://localhost:${PORT}`);
       console.log(`🩺 Health: http://localhost:${PORT}/api/health`);
       console.log(`🔑 Demo Accounts:`);

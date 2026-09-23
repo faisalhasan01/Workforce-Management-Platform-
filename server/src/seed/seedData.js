@@ -122,8 +122,8 @@ export const seedDatabase = async () => {
     console.log('[Seed] Creating enterprise projects...');
     const projectCloud = await Project.create({
       organization: acmeOrg._id,
-      name: 'Nexus Cloud Infrastructure',
-      key: 'NEX',
+      name: 'Core Cloud Infrastructure',
+      key: 'COR',
       description: 'Microservices architecture with auto-scaling Kubernetes cluster and zero-downtime CI/CD.',
       status: 'Active',
       priority: 'Critical',
@@ -341,7 +341,7 @@ export const seedDatabase = async () => {
         organization: acmeOrg._id,
         channel: 'general',
         sender: adminUser._id,
-        content: 'Welcome to NexusWork Enterprise platform! Sprint 24 is officially underway.',
+        content: 'Welcome to the Workforce Management platform! Sprint 24 is officially underway.',
       },
       {
         organization: acmeOrg._id,

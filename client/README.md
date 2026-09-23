@@ -1,6 +1,6 @@
-# NexusWork Enterprise - Workforce & Project Management Platform (Frontend)
+# WorkforceHub - Workforce & Project Management Platform (Frontend)
 
-An enterprise-grade, modern React + Vite application for project tracking, agile sprint planning, kanban boards, real-time team collaboration, documents management, and analytics.
+A modern, responsive React + Vite application for project tracking, agile sprint planning, kanban boards, real-time team collaboration, documents management, and analytics.
 
 ---
 

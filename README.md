@@ -1,6 +1,6 @@
-# NexusWork Enterprise - Full-Stack Workforce & Project Management Platform
+# Workforce Management Platform
 
-A high-performance, enterprise-grade MERN stack platform designed for modern engineering teams. Features project tracking, agile sprint planning, dynamic Kanban boards, role-based workforce governance, real-time messaging, file management, audit logging, and built-in AI productivity tools.
+A full-stack MERN platform for project tracking, sprint planning, Kanban workflows, real-time messaging, and team management.
 
 ---
 

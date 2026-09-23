@@ -35,15 +35,6 @@ export const Sidebar = ({ activeTab, onSelectTab }) => {
         <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-brand-600 to-sky-400 flex items-center justify-center shadow-lg shadow-brand-500/25">
           <Zap className="w-5 h-5 text-white fill-white" />
         </div>
-        <div>
-          <div className="font-extrabold text-base tracking-tight text-white flex items-center space-x-1.5">
-            <span>Nexus</span>
-            <span className="text-brand-400">Work</span>
-          </div>
-          <div className="text-[10px] font-medium text-slate-400 tracking-wider uppercase">
-            Enterprise SaaS
-          </div>
-        </div>
       </div>
 
       {/* Navigation Links */}

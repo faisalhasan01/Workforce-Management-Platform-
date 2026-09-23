@@ -66,9 +66,9 @@ export const AiProductivityModal = ({ isOpen, onClose }) => {
             </div>
             <div>
               <h2 className="text-base font-bold text-white flex items-center space-x-2">
-                <span>NexusAI Productivity Suite</span>
+                <span>AI Productivity Suite</span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-300 font-semibold border border-indigo-500/30">
-                  GPT-4o Engine
+                  Sprint Automation
                 </span>
               </h2>
               <p className="text-xs text-slate-400">

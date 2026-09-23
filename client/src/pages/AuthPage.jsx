@@ -56,30 +56,17 @@ export const AuthPage = () => {
           <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-sky-400 flex items-center justify-center shadow-lg shadow-brand-500/25">
             <Zap className="w-6 h-6 text-white fill-white" />
           </div>
-          <div>
-            <span className="font-extrabold text-xl tracking-tight text-white">
-              Nexus<span className="text-brand-400">Work</span>
-            </span>
-            <div className="text-[10px] font-semibold tracking-widest uppercase text-slate-400">
-              Enterprise SaaS Platform
-            </div>
-          </div>
         </div>
 
         {/* Hero Copy */}
         <div className="my-12 z-10 max-w-lg">
-          <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-300 text-xs font-semibold mb-6">
-            <Sparkles className="w-3.5 h-3.5 text-brand-400" />
-            <span>Next-Gen MERN Workforce & Project Cloud</span>
-          </div>
-
           <h1 className="text-3xl lg:text-4xl font-extrabold text-white tracking-tight leading-tight">
             Scale your engineering teams with unified velocity.
           </h1>
 
           <p className="mt-4 text-slate-400 text-sm leading-relaxed">
             Multi-tenant organization isolation, dynamic RBAC, real-time drag-and-drop Kanban,
-            WebSocket team chat, business analytics, and built-in AI productivity copilots.
+            WebSocket team chat, business analytics, and smart automation.
           </p>
 
           {/* Quick Demo Login Grid for Reviewers */}
@@ -159,7 +146,7 @@ export const AuthPage = () => {
         <div className="w-full max-w-md space-y-6">
           <div className="space-y-2">
             <h2 className="text-2xl font-extrabold text-white tracking-tight">
-              {isRegister ? 'Create an enterprise account' : 'Welcome back'}
+              {isRegister ? 'Create an account' : 'Welcome back'}
             </h2>
             <p className="text-xs text-slate-400">
               {isRegister
